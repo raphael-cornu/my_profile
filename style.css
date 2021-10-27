@@ -1,0 +1,104 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: montserrat;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1 {
+  color: blue;
+  font-family: impact;
+  font-weight: 120;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: #EB92BE;
+	font-size: 5px;
+	font-family: montserrat;
+	font-weight: 120;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+}
+
+a {
+	color: #EB92BE;
+	font-weight: bold;
+	text-align: center;
+}
+
+a:hover {
+	color: #B1FFFD;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.container
+#image { 
+  width: 100px;
+
+}
+#drive {
+	width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  text-align: center;
+   }
+
+div { 
+	border-radius: 10px;
+	margin: 25px;
+	padding: 5px;
+	width: 400px;
+	box-shadow: 2.5px 5.5px 10px 2.5px #BFD8B8;
+}
+.container {
+	width: 700px;
+	margin: 40px;
+}
+.card-white {
+	background-color: #FFEF78;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 20px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: blue;
+	color:  white;
+	padding:  5px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #6B72E1;
+	color:  white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding:  10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color:  blue;
+}
